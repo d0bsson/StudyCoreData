@@ -10,6 +10,8 @@ import CoreData
 
 class TaskViewController: UIViewController {
     
+    var delegate: TaskViewControllerDelegate?
+    
     private let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     private lazy var taskTextField: UITextField = {
@@ -97,6 +99,7 @@ class TaskViewController: UIViewController {
                 print(error.localizedDescription)
             }
         }
+        delegate?.reloadData()
         dismiss(animated: true)
     }
     
