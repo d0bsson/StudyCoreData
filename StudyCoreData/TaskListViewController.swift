@@ -8,13 +8,13 @@
 import UIKit
 
 class TaskListViewController: UITableViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupNavigationBar()
     }
-
+    
     private func setupNavigationBar() {
         title = "Task List"
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -43,6 +43,8 @@ class TaskListViewController: UITableViewController {
     }
     
     @objc private func addNewTask() {
+        let taskVC = TaskViewController()
+        present(taskVC, animated: true)
         
     }
     

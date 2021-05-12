@@ -13,6 +13,7 @@
 		D7FA55BD264C47230094B872 /* StudyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7FA55BB264C47230094B872 /* StudyCoreData.xcdatamodeld */; };
 		D7FA55BF264C47240094B872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FA55BE264C47240094B872 /* Assets.xcassets */; };
 		D7FA55C2264C47240094B872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FA55C0264C47240094B872 /* LaunchScreen.storyboard */; };
+		D7FA55CF264C4EF80094B872 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FA55CE264C4EF80094B872 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D7FA55BE264C47240094B872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7FA55C1264C47240094B872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7FA55C3264C47240094B872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FA55CE264C4EF80094B872 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D7FA55C0264C47240094B872 /* LaunchScreen.storyboard */,
 				D7FA55C3264C47240094B872 /* Info.plist */,
 				D7FA55BB264C47230094B872 /* StudyCoreData.xcdatamodeld */,
+				D7FA55CE264C4EF80094B872 /* TaskViewController.swift */,
 			);
 			path = StudyCoreData;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7FA55B7264C47230094B872 /* TaskListViewController.swift in Sources */,
+				D7FA55CF264C4EF80094B872 /* TaskViewController.swift in Sources */,
 				D7FA55B3264C47230094B872 /* AppDelegate.swift in Sources */,
 				D7FA55BD264C47230094B872 /* StudyCoreData.xcdatamodeld in Sources */,
 			);
